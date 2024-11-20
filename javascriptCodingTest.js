@@ -1,4 +1,4 @@
-// Remove duplicate elements from array and
+// 1.Remove duplicate elements from array and
 
 const array = [1, 24, 5, 6, 767, 8, 8, 8, 8, 6, 6]
 
@@ -11,7 +11,7 @@ const uniqueElements = array.filter((element, index) => {
 console.log(uniqueElements)
 
 
-//super array objects
+// 2. super array objects
 
 const aob =
     [
@@ -50,7 +50,7 @@ console.log(superAob(aob, 'framework'));
 
 
 
-//Event lop-order
+//3.Event lop-order
 
 function main() {
     console.log('A');
@@ -63,7 +63,7 @@ main();
 
 // A,C and B
 
-//function arrow context
+// 4. function arrow context
 
 function User(name, age) {
     this.name = name;
@@ -80,7 +80,48 @@ function User(name, age) {
     }
 }
 
-let user = new User('John', 25);
-let profile = user.getProfile();
-profile(); //I'm John, 25 yrs old
+// let user = new User('John', 25);
+// let profile = user.getProfile();
+// profile(); //I'm John, 25 yrs old
 
+// 5. function context
+
+function User(name, age) {
+    this.name = name;
+    this.age = age;
+
+    this.getProfile = function () {
+        // Outer function context
+        console.log(this.constructor.name); // User
+        return function () {
+            // Inner function context
+            console.log(this.constructor.name); // Window
+            console.log("I'm " + this.name + ", " + this.age + " yrs old");
+        };
+    }
+}
+
+// var user = new User('John', 25);
+// var profile = user.getProfile();
+// profile(); //I'm , undefined yrs old
+
+
+// 6 . function expression
+
+var y = 1;
+if (function f() { }) {
+    y += typeof f;
+}
+console.log(y);
+
+// 6 . function hoisted
+
+var car = new Vehicle("Honda", "white", "2010", "UK");
+console.log(car);
+
+function Vehicle(model, color, year, country) {
+    this.model = model;
+    this.color = color;
+    this.year = year;
+    this.country = country;
+}
