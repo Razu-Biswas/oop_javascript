@@ -1,0 +1,11 @@
+// 1. What are the possible ways to create objects in JavaScript?
+// Answer > There are many ways to create objects in javascript as mention some ways.
+
+// const objectName = {
+//     name:"Razu",
+//     age:28,
+// }
+
+// let object =  new Object();
+
+// let objects = Object()
