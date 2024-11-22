@@ -2,24 +2,26 @@
 // Answer > There are many ways to create objects in javascript as mention some ways.
 
 // const objectName = {
-//     name:"Razu",
-//     age:28,
+// name:"Razu",
+// age:28,
 // }
 
-// let object =  new Object();
+// let object = new Object();
 
 // let objects = Object()
 
 What is a prototype chain
 Prototype chaining is used to build new types of objects based on existing ones.It is similar to inheritance in a class based language.i.e, When you create an object using a constructor function or a class, the created object inherits properties from a prototype object.
 
-The prototype on object instance is available through Object.getPrototypeOf(object) or __proto__ property whereas prototype on constructor function is available through Object.prototype.
-
-
+The prototype on object instance is available through Object.getPrototypeOf(object) or **proto** property whereas prototype on constructor function is available through Object.prototype.
 
 What is programming ?
 Answer: Programming is the mental process of thinking up instructions to give to a machine (like a computer). Coding is the process of transforming those ideas into.
 
+Why Do We Need Programming?
 
-Why need programming ?
-Answer: 
+Answer:Programming is a fundamental skill that is required for the following reasons:
+Finding a sequence of instructions to automate tasks that are time-consuming and repetitive to solve a problem.
+Creating a set of computer instructions for performing operations and exhibiting expected behavior.
+Improving efficiency since manual tasks can be completed using computer programming.
+Building programs for different purposes using various programming languages.
