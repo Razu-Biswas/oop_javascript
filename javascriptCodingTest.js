@@ -150,4 +150,34 @@ class Rectangle {
 
 const square = new Rectangle(20, 30);
 
-console.log(square.area); // Uncaught SyntaxError: A class may only have one constructor
+console.log(square.area); // Uncaught SyntaxError: A class may only have one constructor\
+
+// function fibonacciSeries(number) {
+//     let fibo = [0, 1]
+//     for (var i = 2; i <= number; i++) {
+//         fibo[i] = fibo[i - 1] + fibo[i - 2];
+//     }
+//     return fibo;
+// }
+// console.log(fibonacciSeries(10))
+//Output: [ 0, 1,  1,  2,  3,5, 8, 13, 21, 34, 55]
+
+
+// fibonacci series in javascript
+// const fibonacciSeries = (num) => {
+//     let arr = [];
+//     for(let i = 0; i <= num; i++) {
+//       if(i == 0 || i == 1){
+//         arr[i] = i;
+//       }else{
+//         arr[i] = arr[i - 1] + arr[i - 2];
+//       }
+//     }
+//     return arr;
+// }
+// console.log(fibonacciSeries(6)) //[ 0, 1,  1,  2,  3, 5, 8];
+
+
+// what is the advantage of arrow function in javascript
+
+// Some of the benefits of using arrow functions in JavaScript are as follows: Arrow functions have shorter syntax than regular function expressions. Arrow functions have implicit return statements. Arrow functions increase readability.
