@@ -189,3 +189,14 @@ console.log(square.area); // Uncaught SyntaxError: A class may only have one con
 //Answer :  Prototype chaining is used to build new types of objects based on existing ones. It is similar to inheritance in a class based language. i.e, When you create an object using a constructor function or a class, the created object inherits properties from a prototype object.
 
 // The prototype on object instance is available through Object.getPrototypeOf(object) or __proto__ property whereas prototype on constructor function is available through Object.prototype.
+
+
+//9. What is JSON and its common operations
+// JSON is a text-based data format following JavaScript object syntax, which was popularized by Douglas Crockford. It is useful when you want to transmit data across a network. It is basically just a text file with an extension of .json, and a MIME type of application/json
+
+// Parsing: Converting a string to a native object
+
+// JSON.parse(text);
+// Stringification: Converting a native object to a string so that it can be transmitted across the network
+
+// JSON.stringify(object);
