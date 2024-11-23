@@ -208,3 +208,13 @@ console.log(square.area); // Uncaught SyntaxError: A class may only have one con
 // Each stage performs an operation on the input documents. For example, a stage can filter documents, group documents, and calculate values.
 // The documents that are output from a stage are passed to the next stage.
 // An aggregation pipeline can return results for groups of documents. For example, return the total, average, maximum, and minimum values.
+
+
+//11 .  How to Optimize MongoDB Queries for Performance?
+// Optimizing MongoDB queries involves several strategies:
+
+// Indexes: Create appropriate indexes to support query patterns.
+// Query Projections: Use projections to return only necessary fields.
+// Index Hinting: Use index hints to force the query optimizer to use a specific index.
+// Query Analysis: Use the explain() method to analyze query execution plans and identify bottlenecks.
+// Aggregation Pipeline: Optimize the aggregation pipeline stages to minimize data processing and improve efficiency.
