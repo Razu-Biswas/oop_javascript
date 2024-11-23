@@ -152,6 +152,7 @@ const square = new Rectangle(20, 30);
 
 console.log(square.area); // Uncaught SyntaxError: A class may only have one constructor\
 
+// 7.
 // function fibonacciSeries(number) {
 //     let fibo = [0, 1]
 //     for (var i = 2; i <= number; i++) {
@@ -178,6 +179,13 @@ console.log(square.area); // Uncaught SyntaxError: A class may only have one con
 // console.log(fibonacciSeries(6)) //[ 0, 1,  1,  2,  3, 5, 8];
 
 
-// what is the advantage of arrow function in javascript
+// 8.  what is the advantage of arrow function in javascript
 
 // Some of the benefits of using arrow functions in JavaScript are as follows: Arrow functions have shorter syntax than regular function expressions. Arrow functions have implicit return statements. Arrow functions increase readability.
+
+
+
+// 9. What is a prototype chain
+//Answer :  Prototype chaining is used to build new types of objects based on existing ones. It is similar to inheritance in a class based language. i.e, When you create an object using a constructor function or a class, the created object inherits properties from a prototype object.
+
+// The prototype on object instance is available through Object.getPrototypeOf(object) or __proto__ property whereas prototype on constructor function is available through Object.prototype.
