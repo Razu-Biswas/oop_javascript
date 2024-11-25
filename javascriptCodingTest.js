@@ -477,59 +477,7 @@ console.log(square.area); // Uncaught SyntaxError: A class may only have one con
 // }
 
 // console.log(generateFibonacciMap(10)); // Example: First 10 terms
-// 9. Using Formula (Closed-form Expression - Binet's Formula)
-// The Fibonacci sequence can be generated using the golden ratio formula:
-
-// 𝐹
-// (
-// 𝑛
-// )
-// =
-// 𝜙
-// 𝑛
-// −
-// 𝜓
-// 𝑛
-// 5
-// F(n)= 
-// 5
-// ​
- 
-// ϕ 
-// n
-//  −ψ 
-// n
- 
-// ​
-//   Where:
-
-// 𝜙
-// =
-// 1
-// +
-// 5
-// 2
-// ϕ= 
-// 2
-// 1+ 
-// 5
-// ​
- 
-// ​
-//   (Golden ratio)
-// 𝜓
-// =
-// 1
-// −
-// 5
-// 2
-// ψ= 
-// 2
-// 1− 
-// 5
-// ​
- 
-// ​
+​
  
 // javascript
 // Copy code
